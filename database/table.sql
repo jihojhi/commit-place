@@ -2,6 +2,7 @@ create sequence seq_user start 1;
 create sequence seq_city start 1;
 create sequence seq_commit start 1;
 
+
 --drop table "user";
 create table "user" (
 	userNo int primary key default nextval('seq_user'),
